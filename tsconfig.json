@@ -1,0 +1,45 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2020",
+    "lib": ["esnext"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "exactOptionalPropertyTypes": false,
+    "useDefineForClassFields": true,
+    "noImplicitOverride": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    /* Modules */
+    "module": "node16",
+    "moduleResolution": "node",
+    "verbatimModuleSyntax": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noEmitHelpers": true,
+    "declaration": true,
+    "declarationMap": true,
+    "preserveConstEnums": true,
+
+    /* Emit */
+    "incremental": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "pretty": true,
+    "newLine": "lf",
+
+    /* Other */
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "noEmit": false
+  }
+}
