@@ -1,6 +1,14 @@
 {
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+
 	"files.exclude": {
 		"**/dist": true,
 		"**/node_modules": true
+	},
+
+	"material-icon-theme.folders.associations": {
+		"workflows": "flow"
 	}
 }
